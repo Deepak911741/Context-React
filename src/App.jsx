@@ -1,12 +1,14 @@
 import './App.css'
 import ContextMain from './context/components/ContextMain'
+import ReduxMain from './RedusTollkit/ReduxMain'
 
 function App() {
 
   return (
     <>
       <div>
-      <ContextMain />
+      {/* <ContextMain /> */}
+      <ReduxMain/>
       </div>
     </>
   )
